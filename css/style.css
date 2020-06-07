@@ -48,8 +48,8 @@ a {
 
 
 .dark-bg {
-  background-color: #0077D5;
-  /* background-image: linear-gradient(to right, rgb(0, 119, 136), rgb(7, 213, 213)) */
+  /* background-color: #0077D5; */
+  background-image: linear-gradient(to right, rgb(0, 119, 136), rgb(7, 213, 213))
 }
 
 /* nAVBAR */
@@ -59,7 +59,7 @@ a {
 
 .nav-link {
   font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 a.nav-link {
@@ -88,7 +88,7 @@ a.nav-link {
   width: 50vw;
 }
 
-.quem-sou-text p {
+p {
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -98,6 +98,17 @@ a.nav-link {
     padding-top: 3rem;
     text-align: center;
   }
+}
+
+.oferecer {
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.oferecer p {
+  margin: 2rem auto;
 }
 
 footer {
@@ -111,6 +122,6 @@ footer {
 
 footer p {
   color: #ffffff;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 0.9rem;
 }
