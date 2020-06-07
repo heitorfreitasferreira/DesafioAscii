@@ -15,10 +15,25 @@ p {
     sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+
 a:hover,
 a {
   text-decoration: none;
 }
+
 
 .flex {
   display: flex;
@@ -31,11 +46,13 @@ a {
   padding: 3rem 0;
 }
 
-/* nAVBAR */
-nav {
+
+.dark-bg {
   background-color: #0077D5;
+  /* background-image: linear-gradient(to right, rgb(0, 119, 136), rgb(7, 213, 213)) */
 }
 
+/* nAVBAR */
 .nav-item {
   padding: 0 18px;
 }
@@ -81,4 +98,19 @@ a.nav-link {
     padding-top: 3rem;
     text-align: center;
   }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 55px;
+  justify-content: center;
+  text-align: center;
+}
+
+footer p {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 0.9rem;
 }

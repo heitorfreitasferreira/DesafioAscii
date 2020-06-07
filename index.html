@@ -31,85 +31,97 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="">Processo seletivo ASCII</a>
+  <div id="content">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary dark-bg">
+      <a class="navbar-brand" href="">Processo seletivo ASCII</a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#formacao">Cursos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#progresso">Habilidades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#exp">Experiência</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#footer">Contato</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="flex secao">
-
-    <div class="">
-      <img class="ft-round" src="imagens/perfil-1.png" alt="Foto de perfil">
-    </div>
-
-    <div class="quem-sou-text">
-      <p>Quem sou</p>
-      <h1>Heitor Freitas Ferreira</h1>
-      <p>Sou um estudante de Ciência da Computação na UFU, tenho interesse em desenvolvimento web com foco de criação de
-        APIs para servir ambientes mobile e desktop</p>
-    </div>
-  </div>
-  <div class="flex secao">
-
-    <div class="">
-      <div id="carouselExampleSlidesOnly" class="carousel " data-ride="carousel" data-interval="3000" ride="false">
-        <div class="carousel-inner">
-
-          <div class="carousel-item active">
-            <img class="d-block ft-normal" src="imagens/nodejs-icon.svg" alt="First slide">
-          </div>
-
-          <div class="carousel-item">
-            <img class="d-block ft-normal" src="imagens/mongodb.svg" alt="Second slide">
-          </div>
-
-          <div class="carousel-item">
-            <img class="d-block ft-normal" src="imagens/html-55-centered.png" alt="Third slide">
-          </div>
-
-          <div class="carousel-item">
-            <img class="d-block ft-normal" src="imagens/css-5.svg" alt="Fourth slide">
-          </div>
-
-          <div class="carousel-item">
-            <img class="d-block ft-normal" src="imagens/mysql.svg" alt="Fifth slide">
-          </div>
-
-
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#quem-sou">Quem sou</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://wa.me/553491121020?text=Ol%C3%A1%2C%20acabei%20de%20ver%20seu%20curriculo%20e%20tenho%20interesse%20em%20contrat%C3%A1-lo">Contato</a>
+          </li>
+        </ul>
       </div>
-      <!-- <img class="ft-normal" src="imagens/nodejs-icon.svg" > -->
-    </div>
+    </nav>
 
-    <div class="quem-sou-text">
-      <h1>Minhas habilidades</h1>
-      <p>Sou proficiente com NodeJS utilizando Express para gerenciamento de rotas em backend. No quesito banco de
-        dados, sou proficientecom MongoDB usando Mongoose como driver para gerenciar os dados dentro do NodeJS e sei
-        utilizar SQLite. Para o front-end utilizo HTML5 e CSS3 para construir os layouts, com utilização exporádica de
-        Bootstrap para aproveitar de componentes prontos</p>
+    <div class="flex secao" id="quem-sou">
+
+      <div class="">
+        <img class="ft-round" src="imagens/perfil-1.png" alt="Foto de perfil">
+      </div>
+
+      <div class="quem-sou-text">
+        <p>Quem sou</p>
+        <h1>Heitor Freitas Ferreira</h1>
+        <p>Sou um estudante de Ciência da Computação na UFU, tenho interesse em desenvolvimento web com foco de criação
+          de
+          APIs para servir ambientes mobile e desktop</p>
+      </div>
+    </div>
+    <div class="flex secao" id="habilidades">
+
+      <div class="">
+        <div id="carouselExampleSlidesOnly" class="carousel " data-ride="carousel" data-interval="3000" ride="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="d-block ft-normal" src="imagens/nodejs-icon.svg" alt="First slide">
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block ft-normal" src="imagens/mongodb.svg" alt="Second slide">
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block ft-normal" src="imagens/html-55-centered.png" alt="Third slide">
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block ft-normal" src="imagens/css-5.svg" alt="Fourth slide">
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block ft-normal" src="imagens/bootstrap-4.svg" alt="Fifth slide">
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block ft-normal" src="imagens/mysql.svg" alt="Sixth slide">
+            </div>
+
+
+          </div>
+        </div>
+        <!-- <img class="ft-normal" src="imagens/nodejs-icon.svg" > -->
+      </div>
+
+      <div class="quem-sou-text">
+        <h1>Minhas habilidades</h1>
+        <p>Sou proficiente com NodeJS utilizando Express para gerenciamento de rotas em backend. No quesito banco de
+          dados, sou proficientecom MongoDB usando Mongoose como driver para gerenciar os dados dentro do NodeJS e sei
+          utilizar SQLite. Para o front-end utilizo HTML5 e CSS3 para construir os layouts, com utilização exporádica de
+          Bootstrap para aproveitar de componentes prontos</p>
+        <a href="https://github.com/heitorfreitasferreira" target="_blank">Para mais informações acesse meu Github</a>
+      </div>
     </div>
   </div>
+  <footer class="dark-bg">
+    <p>Desenvolvido com <i class="fas fa-heart"></i> por Heitor Freitas Ferreira</p>
+  </footer>
 
 
 
